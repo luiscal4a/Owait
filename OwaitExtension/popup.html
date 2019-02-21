@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./css/popup.css">
+  </head>
+  <body>
+    <div class="container" id="myContainer">
+      <div class="page-header">
+        <button class="btn btn-primary btnclass btnOn" id="offButton"><i class="fas fa-power-off fa-2x"></i></button>
+        <h3>Owait</h3>
+        <p id="status">Edit and click Apply</p>
+        <div class="oneLine">
+          <a href="#" id="Select" class="inline">Select all</a>
+          <p class="inline"> / </p>
+          <a href="#" id="unSelect" class="inline">Unselect all</a>
+        </div>
+      </div>
+      <div id="trContainer">
+      </div>
+    </div>
+
+    <dialog>Create your new conversion
+      <input type="text" placeholder="Original" name="fname" id="original">
+      <input type="text" placeholder="Converted" name="fname2" id="converted">
+      <br>
+      <div>
+        <button class="btn btn-primary mydi" id="Add">Add</button>
+        <button class="btn btn-primary midi" id="Close">Cancel</button>
+      </div>
+    </dialog>
+
+    <footer class="block">
+      <button class="btn btn-primary" id="applyButton">Apply</button>
+      <button class="btn btn-primary" id="addButton">Add</button>
+    </footer>
+
+    <script src="./scripts/popup.js"></script>
+  </body>
+</html>

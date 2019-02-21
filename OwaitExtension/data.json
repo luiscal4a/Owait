@@ -1,0 +1,32 @@
+{
+  "Selector0":{
+    "original": "o",
+    "converted": "OwO",
+    "selected": true
+  },
+  "Selector1":{
+    "original": "\\(",
+    "converted": "( ͡° ͜ʖ ͡° ]",
+    "selected": true
+  },
+  "Selector2":{
+    "original": "\\)",
+    "converted": "♪~ ᕕ(ᐛ)ᕗ",
+    "selected": true
+  },
+  "Selector3":{
+    "original": "ó",
+    "converted": "ÓwÓ",
+    "selected": false
+  },
+  "Selector4":{
+    "original": "-",
+    "converted": "¯\\_(ツ)_/¯",
+    "selected": false
+  },
+  "Selector5":{
+    "original": "u",
+    "converted": "uwu",
+    "selected": false
+  }
+}

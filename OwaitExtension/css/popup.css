@@ -1,0 +1,67 @@
+.container {
+  max-height: 600px;
+  min-height: 300px;
+  width: 250px;
+  border: 2px solid rgba(0,0,0,0);
+  border-radius: 2px;
+  background: white;
+}
+
+body {
+  font-family: "Arial" !important;
+  font-size: 100%;
+}
+
+#status {
+  /* avoid an excessively wide status text */
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+}
+.patient-list {
+  max-height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #CCCCCC;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.midi{
+  margin:10px;
+}
+
+.oneLine{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.btnclass {
+  float: right;
+  margin-top: 10px;
+}
+
+.btnOn, .btnOn:hover {
+  color: lime !important;
+}
+
+.btnOff, .btnOff:hover {
+  color: white !important;
+}
